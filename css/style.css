@@ -130,5 +130,17 @@ img{
 	opacity: 1;
 	transform: translateY(0px);
 }
- /*
-@media ()
+ 
+
+@media (max-width: 700px) {
+	#personagens {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.container-personagens {
+		margin: 15px;
+		width: 70%;
+	}
+}

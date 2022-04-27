@@ -83,3 +83,15 @@ a:hover {
 }
 
 
+@media (max-width: 700px) {
+	#containerFase {
+		display: flex;
+		flex-direction: column;
+        height: 60%;
+	}
+
+	.fase {
+		margin: 15px;
+        width: 70%;
+}
+}
